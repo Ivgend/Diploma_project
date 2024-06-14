@@ -1,0 +1,141 @@
+*{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+.container{
+    margin: 0;
+    max-width: 1440px;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: black;
+    /* opacity: 84%; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 20;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.logo{
+    opacity: initial;
+    position: absolute;
+    left: 70px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+.nav{    
+    font-size: 1.6vw;
+    margin-right: 5vw;
+    padding: 0.5vh 1vw;
+}
+.nav:hover{
+    background-image: url(/img/icon_current_left.png), url(/img/icon_current_right.png);
+    background-position: 0 0, right 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 1px solid #355758;
+    border-top: 1px solid #355758;
+    
+}
+
+
+.characters{
+    width: 100%;
+    height: 95vh;
+    background: url(/img/chars_back.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.char1{
+    width: 21vw;
+    height: 77vh;
+    margin-top: 10vh;
+    background: url(/img/V-g.png);
+    background-size: cover;
+}
+
+.char1:hover{
+    width: 21vw;
+    height: 77vh;
+    background: url(/img/v-b.png);
+    background-size: cover;
+}
+
+.char2{
+    width: 20vw;
+    height: 78vh;
+    margin-top: 6vh;
+    background: url(/img/nero-g.png);
+    background-size: cover;
+    padding-top: initial;
+}
+
+.char2:hover{
+    width: 20vw;
+    height: 80vh;
+    background: url(/img/nero-b.png);
+    background-size: cover;
+    margin-bottom: 3vh;
+}
+
+.char3{
+    width: 21vw;
+    height: 77vh;
+    margin-top: 10vh;
+    background: url(/img/dante-g.png);
+    background-size: cover;
+}
+
+.char3:hover{
+    width: 21vw;
+    height: 79vh;
+    background: url(/img/dante-b.png);
+    background-size: cover;
+}
+
+.char4{
+    width: 21vw;
+    height: 82vh;
+    margin-top: 10vh;
+    background: url(/img/Vergil-g.png);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.char4:hover{
+    width: 21vw;
+    height: 83vh;
+    background: url(/img/vergil-b.png);
+    background-size: cover;
+    margin-bottom: 10vh;
+}

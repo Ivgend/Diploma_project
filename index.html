@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Didact+Gothic&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <title>DMC 5 guide site</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logo" href="#main" >
+                <img src="img/logo_dmc5.png" alt="">
+            </a>
+            <nav>
+                <div class="nav_bar">
+                    <a href="#history" class="nav">Об игре</a>
+                    <a href="#characters" class="nav">Персонажи</a>
+                    <a href="#system" class="nav">Система</a>
+                </div>
+            </nav>
+        </header>
+        <!-- Главная -->
+    <div class="main" id="main">
+        <div class="intro">
+                <div class="intro_media">
+                        <video class="intro_video" src="/video/videoplayback_intro.webm" autoplay muted loop></video>
+                </div>
+        </div>
+
+        <div class="intro_content">
+            <img class="logo_main" src="/img/logo_dmc5_main.png" alt="">
+            <ul class="platform">
+                <li><img class="pf_icon" src="img/logo_xbox.png" alt=""></li>
+                <li><img class="pf_icon" src="img/logo_ps4.png" alt=""></li>
+                <li><img class="pf_icon" src="img/logo_steam.png" alt=""></li>
+                <li><img class="pf_icon" src="img/logo_amazonluna.png" alt=""></li>
+            </ul>
+        </div>
+    
+
+        <!-- История -->
+        <div id="history" class="history">
+            <img class="title" src="/img/h_title.svg" alt="">
+            <p class="history_text">Согласно древней легенде, 2000 лет назад мир людей находился на краю гибели. Орды демонов и злобных тварей вышли из врат Ада, чтобы уничтожить всё человечество. Однако среди них был тот, кто воспротивился своей демонической сущности. Легендарный Тёмный Рыцарь Спарда восстал против Императора Тьмы и запечатал врата своим собственным мечом и мощным амулетом, который впоследствии был разделён на 2 половинки. Тем самым он спас людей от гибели. Приняв человеческое обличье, он женился на человеческой девушке Еве, и у них родились братья-близнецы: Данте и Вергилий...</p><br>
+                <a href="/history.html" class="button">Подробнее</a>
+        </div>
+
+        <!-- Персонажи -->
+        <div id="characters" class="characters">
+            <img class="title" src="/img/c_title.svg" alt="">
+            <h1 class="characters_text"><span>Возвращение легендарного охотника на демонов Данте и его молодого приемника Неро. Новый загадочный персонаж Ви(V). Также добавлен DLC персонаж Вергилий, за которого можно сыграть в сюжетной кампании, Кровавом дворце и Пустоте.</span></h1>
+            
+            <a href="/characters.html" class="button" style="opacity: 1;">Подробнее</a>
+        </div>
+    </div>
+
+
+    <!-- Система -->
+    <div id="system" class="system">
+        <img class="title" src="/img/s_title.svg" alt="">
+        <div class="features">
+            <a href="/abilities_dante.html"><div class="feature"><img src="/img/spic.png" alt=""><p>Список приемов</p></div></a>
+            <a href="/guides.html"><div class="feature"><img src="/img/guides.png" alt=""><p>Гайды</p></div></a>
+            <a href="/"><div class="feature"><img src="/img/combo.png" alt=""><p>Комбо</p></div></a>
+        </div>
+    </div>
+    
+
+    <!-- Подвал -->
+    <footer>
+        <div class="inner">
+            <p class="footer_title">
+                DEVIL MAY CRY 5
+            </p>
+            <div class="spec">
+                <dl>
+                    <dt>Игроки</dt>
+                    <dd>: 1 игрок(1-3 в мульиплеере)</dd>
+                </dl>
+                <dl>
+                    <dt>Платформы</dt>
+                    <dd>: Xbox One/PlayStation®4/PC(Steam)/<br class="pc-only">Amazon Luna</dd>
+                </dl>
+                <dl>
+                    <dt>Жанр</dt>
+                    <dd>: Stylish Action</dd>
+                </dl>
+                <dl>
+                    <dt>Рейтинг</dt>
+                    <dd>: M</dd>
+                </dl>
+                <p class="cero esrb"><img src="../assets/img/common/esrb_icon.png" alt=""></p>
+                <img src="/img/esrb_icon.png" alt="">
+            </div>
+
+            <div class="reengine">
+                <img src="/img/reengine.jpg" alt="">
+                <p>Графика с высокой частотой кадров и гибкий дизайн дают нашим создателям все, что им нужно, чтобы предложить поклонникам новейшие и лучшие впечатления от DMC.</p>
+            </div>
+
+        </div>
+    </footer>
+</div>
+
+    <script>
+        var sound1 = new Audio();
+        sound1.src = "/Sounds/Shot_sound.wav"
+    </script>
+</body>
+</html>
